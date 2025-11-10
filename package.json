@@ -10,12 +10,13 @@ var request = require('request');
   "amount": "75000",
   "currency": "ETB",
   "email": "nurazamanmohamed541@email.com",
+"bank name telebirr
   "first_name": "Nuurazzamaan",
   "last_name": "Mohammed",
   "phone_number": "0936186805",
-  "tx_ref": "Nuurazzamaan_3407951812",
-  "callback_url": "https://webhook.site/077164d6-29cb-40df-ba29-8a00e59a7e60",
-  "return_url": "https://www.google.com/",
+  https://webhook.site/#!/view/e032d613-4d36-467a-bc41-af78f194707b
+",
+  "return_url": "https://www.Nuurazzamaan Mohammed google.com/",
   "customization[title]": "Payment for my favourite merchant",
   "customization[description]": "I love online payments",
   "meta[hide_receipt]": "true"
