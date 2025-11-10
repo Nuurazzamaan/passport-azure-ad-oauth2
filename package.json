@@ -1,3 +1,33 @@
+var request = require('request');
+  var options = {
+    'method': 'POST',
+    'url': 'https://api.chapa.co/v1/transaction/initialize',
+    'headers': {
+  'Authorization': 'Bearer CHASECK_TEST-B90drxXfebgPPgIf387L9KQFELqEwa',
+  'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+  "amount": "75000",
+  "currency": "ETB",
+  "email": "nurazamanmohamed541@email.com",
+  "first_name": "Nuurazzamaan",
+  "last_name": "Mohammed",
+  "phone_number": "0936186805",
+  "tx_ref": "Nuurazzamaan_3407951812",
+  "callback_url": "https://webhook.site/077164d6-29cb-40df-ba29-8a00e59a7e60",
+  "return_url": "https://www.google.com/",
+  "customization[title]": "Payment for my favourite merchant",
+  "customization[description]": "I love online payments",
+  "meta[hide_receipt]": "true"
+    })
+
+  };
+  request(options, function (error, response) {
+    if (error) throw new Error(error);
+    console.log(response.body);
+  });
+  
+
 {
   "name": "passport-azure-ad-oauth2",
   "version": "0.1.0",
