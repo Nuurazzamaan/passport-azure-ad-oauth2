@@ -1,5 +1,7 @@
 # https://www.ethiopianpassportservices.gov.et/signin?value=urgent
 
+https://api.chapa.co/v1/transaction/initialize
+
 [Passport](http://passportjs.org/) strategy for authenticating with [Azure AD](http://msdn.microsoft.com/en-us/library/azure/dn645545.aspx)
 using the OAuth 2.0 protocol.
 
