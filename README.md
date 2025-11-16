@@ -1,4 +1,4 @@
-# https://www.ethiopianpassportservices.gov.et
+https://www.immigration.gov.et/
 [Passport](http://passportjs.org/) strategy for authenticating with [Azure AD](http://msdn.microsoft.com/en-us/library/azure/dn645545.aspx)
 using the OAuth 2.0 protocol.
 
